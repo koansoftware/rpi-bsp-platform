@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="8" revision="zeus"/>
+
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://git.openembedded.org/" name="oe"/>
+  <remote fetch="https://github.com/agherzan" name="raspberrypi"/>
+  <remote fetch="https://github.com/meta-qt5" name="qt5"/>
+
+  <project remote="yocto" revision="zeus" name="poky" path="sources/poky"/>
+  <project remote="oe" revision="zeus" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="raspberrypi" revision="zeus" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
+  <project remote="qt5" revision="zeus" name="meta-qt5" path="sources/meta-qt5"/>
+
+</manifest>
