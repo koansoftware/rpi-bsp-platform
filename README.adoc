@@ -1,7 +1,6 @@
 = Raspberry PI unofficial Yocto Project BSP by KOAN
 
-This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. 
-In case of sharing please indicate the origin: (C)2020 KOAN - <https://koansoftware.com>
+This work is licensed under GNU GENERAL PUBLIC LICENSE v2 : (C)2020 KOAN - <https://koansoftware.com>
 
 To get the BSP you need to have `repo` installed and use it as:
 
@@ -18,7 +17,7 @@ Download the BSP source:
 $: PATH=${PATH}:~/bin
 $: mkdir yocto-rpi3-zeus
 $: cd yocto-rpi3-zeus
-$: repo init -u https://github.com/koansoftware/acme-cm3-bsp-platform -b zeus
+$: repo init -u https://github.com/koansoftware/rpi-bsp-platform -b zeus
 $: repo sync
 
 At the end of the commands you have every metadata you need to start work with.
