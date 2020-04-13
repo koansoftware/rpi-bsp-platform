@@ -2,6 +2,8 @@
 
 This work is licensed under GNU GENERAL PUBLIC LICENSE v2 : (C)2020 KOAN - <https://koansoftware.com>
 
+* Reference branch : 3.0 'zeus' *
+
 To get the BSP you need to have `repo` installed and use it as:
 
 Install the `repo` utility:
