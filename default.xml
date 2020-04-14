@@ -7,10 +7,12 @@
   <remote fetch="https://git.openembedded.org/" name="oe"/>
   <remote fetch="https://github.com/agherzan" name="raspberrypi"/>
   <remote fetch="https://github.com/meta-qt5" name="qt5"/>
+  <remote fetch="https://github.com/koansoftware" name="koan"/>
 
   <project remote="yocto" revision="zeus" name="poky" path="sources/poky"/>
   <project remote="oe" revision="zeus" name="meta-openembedded" path="sources/meta-openembedded"/>
   <project remote="raspberrypi" revision="zeus" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
   <project remote="qt5" revision="zeus" name="meta-qt5" path="sources/meta-qt5"/>
+  <project remote="koan" revision="zeus" name="meta-acmesystems" path="sources/meta-acmesystems"/>
 
 </manifest>
